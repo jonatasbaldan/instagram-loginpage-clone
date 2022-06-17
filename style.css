@@ -45,6 +45,10 @@ body {
     margin: 20px 0px 30px 0px;
 }
 
+.c-main__logo:hover {
+    cursor: pointer;
+}
+
 .c-main__login {
     border: 1px solid #DBDBDB;
     background-color: #fff;
@@ -79,6 +83,10 @@ body {
     color: #fff;
     background-color: rgba(0, 149, 246, 1);
     width: 100%;
+}
+
+.c-main__button:hover {
+    cursor: pointer;
 }
 
 .c-main__button:active {
