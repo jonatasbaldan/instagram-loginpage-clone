@@ -181,3 +181,20 @@ body {
     margin-top: 13px;
     color: #8e8e8e;
 }
+
+@media (max-width: 870px) {
+    .is--display-none {
+        display: none;
+    }
+
+    .has--margin-top {
+        margin-top: 4em;
+    }
+}
+
+@media (max-width: 445px) {
+    .has--login-full-width {
+        border: none;
+        background-color: inherit;
+    }
+}
