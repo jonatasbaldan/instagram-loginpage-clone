@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+    font-family: 'Segoe UI', Roboto, Arial, sans-serif;
 }
 
 body {
@@ -15,7 +15,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 .is__flex--row{
@@ -181,6 +180,7 @@ body {
     margin-top: 13px;
     color: #8e8e8e;
 }
+
 
 @media (max-width: 870px) {
     .is--display-none {
