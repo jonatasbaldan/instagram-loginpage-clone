@@ -1,5 +1,106 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+}
 
+body {
+    background-color: #FAFAFA;
+    font-size: 14px;
+}
+
+.is__flex--collumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.is__flex--row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.is__bold {
+    font-weight: bold;
+}
+
+.c-main {
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+}
+
+.c-main__content{
+    flex-grow: 1;
+    max-width: 350px;
+    
+}
+
+.c-main__logo{
+    object-fit: contain;
+}
+
+.c-main__login{
+    border: 1px solid #DBDBDB;
+    background-color: #fff;
+    padding: 15px 30px 15px 30px;
+    align-items: center;
+}
+
+.c-main__input{
+    width: 100%;
+    margin-top: 7px;
+    border-radius: 2px;
+    border: 1px solid #DBDBDB;
+    background-color: #fafafa;
+    padding: 8px 6px 6px 6px;
+}
+
+.c-main__button {
+    font-weight: bold;
+    border: 0;
+    margin-top:11px;
+    border-radius: 5px;
+    padding: 8px;
+    color: #fff;
+    background-color: #0095F6;
+    width: 100%;
+}
+
+.c-main__register{
+    border: 1px solid #DBDBDB;
+    background-color: #fff;
+    padding: 15px 30px 15px 30px;
+    margin-top: 7px;
+    align-items: center;
+}
+
+.c-main__create-account {
+    text-align: center;
+}
+
+.c-main__app__img{
+    height: 40px;
+}
+
+.c-footer{
+    align-items: center;
+}
+
+.c-footer__menu{
+    flex-wrap: wrap;
+    gap: 5px 15px;
+    max-width: 600px;
+}
+
+.c-footer__link{
+    color: #8e8e8e;
+}
+
+.c-footer__description {
+    color: #8e8e8e;
 }
